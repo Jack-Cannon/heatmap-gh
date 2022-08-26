@@ -13,8 +13,6 @@ const client = new ApolloClient({
   }
 });
 
-console.log(`Bearer ${process.env.REACT_APP_BEARER_TOKEN}`)
-
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
